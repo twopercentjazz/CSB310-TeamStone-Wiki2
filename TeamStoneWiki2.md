@@ -2,7 +2,7 @@
 
 1. What is a compiler and what is its purpose? - Yen
 
-A compiler is a program designed to convert a programming language's source code into machine code, bytecode, or another programming language. Typically, the source code is written in a high-level language such as Java or python using a code editor or integrated development environment. Once the programmer has saved the source code to one or more text files, a compatible compiler analyzes and translates it into a format suitable for the target platform[1].
+A compiler is a program designed to convert a programming language's source code into machine code, bytecode, or another programming language. Typically, the source code is written in a high-level language such as Java or python using a code editor or integrated development environment. Once the programmer has saved the source code to one or more text files, a compatible compiler analyzes and translates it into a format suitable for the target platform[1]. While translating, a compiler also detect and report errors in the source code, helping programmers to correct mistakes before the code is executed.
 
 <img width="451" alt="Screen Shot 2023-04-28 at 3 38 38 PM" src="https://user-images.githubusercontent.com/92559627/235265176-f1479fa3-b272-4890-ab1d-a5fc7a4ed125.png">
 
