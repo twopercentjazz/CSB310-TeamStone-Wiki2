@@ -1,3 +1,4 @@
+<link href="css/style.css" rel="stylesheet"></link>
 ## Team Stone Wiki 2 - Compilers
 
 ### 1. What is a compiler and what is its purpose? - Yen
@@ -105,93 +106,6 @@ To understand the differences between compiled programming languages to interpre
 
 
 ### 7. Produce a graphic showing the phases and operations of a compileer - Riko
-
-<style>
-.green
-{
-    color: purple;
-    font-weight: 500;
-    font-size: 15px;
-    text-shadow: 1px 1px 0px white;
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.green ul
-{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.green li
-{
-    border: 1px solid pink;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
-}
-
-.green li:nth-child(even)
-{
-    background-color: purple;
-}
-.green li:nth-child(odd)
-{
-    background-color: yellow;
-}
-
-.arrow {
-    transform: translate(-50%, -50%);
-    transform: rotate(-90deg);
-    cursor: pointer;
-    overflow: hidden;
-    display: inline-block;
-}
-
-.arrow span {
-    display: block;
-    width: 15px;
-    height: 15px;
-    border-bottom: 5px solid white;
-    border-right: 5px solid green;
-    transform: rotate(45deg);
-    animation: animate 2s infinite;
-
-}
-
-.arrow span:nth-child(2) {
-    animation-delay: -0.2s;
-}
-
-.arrow span:nth-child(3) {
-    animation-delay: -0.4s;
-}
-
-@keyframes animate {
-    0% {
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px, -20px);
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: rotate(45deg) translate(20px, 20px);
-    }
-}
-</style>
 
 <div class="green">
     <ul>
