@@ -1,4 +1,4 @@
-<link href="css/style.css" rel="stylesheet"></link>
+<link href="https://raw.githubusercontent.com/Riberiko/CSB310-TeamStone-Wiki2/riko/css/style.css" rel="stylesheet"></link>
 ## Team Stone Wiki 2 - Compilers
 
 ### 1. What is a compiler and what is its purpose? - Yen
