@@ -1,3 +1,4 @@
+<link href="https://raw.githubusercontent.com/Riberiko/CSB310-TeamStone-Wiki2/riko/css/style.css" rel="stylesheet"></link>
 ## Team Stone Wiki 2 - Compilers
 
 ### 1. What is a compiler and what is its purpose? - Yen
@@ -27,6 +28,24 @@ Before the advent of the compiler, early software was developed using machine co
 
 
 ### 3. What are the operations of the compiler? - Riko
+
+The compiler is the program that is responsible for translating high-level programming code of a certain language into a language that the machine can understand and execute [rn1]. To do this, the process has to go through a couple of steps: lexical analysis, syntax analysis, code optimization, and code generation [rn1].
+
+#### 3.1 Lexical Analysis
+
+This is the first stage, and it breaks down the source code into tokens or lexemes. Lexemes are the smallest meaningful units of the language, and it is during this process where keywords, identifiers, operations, and other symbols are collected [rn1].
+#### 3.2 Syntax Analysis
+
+This is the second stage, and this part checks and ensures that the tokens conform to the grammar of the language. The parser will check for correct syntax and build a syntax tree that is representative of the program written by the programmer [rn1].
+#### 3.3 Semantic Analysis
+
+This part is the third stage that checks the actual meaning of the program, including data types, variable declarations, function calls, and ensures that they are all consistent with the rules of the language [rn1].
+#### 3.4 Code Optimization
+
+This is the fourth stage that is responsible for applying a number of optimization techniques to improve the performance of the resulting code. Techniques used include, but are not limited to, loop unrolling, dead code elimination, and folding [rn1].
+#### 3.5 Code Generation
+
+This is the final stage. It generates the machine code that will later be executed. The process involves mapping the instructions in the syntax tree to the corresponding machine instructions and generating the necessary data structures and memory allocations [rn1].
 
 ### 4. What are the 3 phases of compilers?
 ### Note: All sources state that compiler process fall under 6 phases
@@ -88,8 +107,47 @@ To understand the differences between compiled programming languages to interpre
 
 ### 7. Produce a graphic showing the phases and operations of a compileer - Riko
 
+<div class="green">
+    <ul>
+        <li>High Level language (User Code)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Lexical Analyzer (Frontend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Syntax Analyser (Frontend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Intermediate Code Generator (Frontend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Code Optimizer (Backend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Code Generator (Machine Code)</li>
+    </ul>
+</div>
+
+
 ### 8. Assemble all the sections so the final wiki is comprehensive - Yen
 
 Preferences:
 
 [1]R. Sheldon, “What is a compiler?,” WhatIs.com, 29-Apr-2022. [Online]. Available: https://www.techtarget.com/whatis/definition/compiler. [Accessed: 28-Apr-2023]. 
+
+[rn1] “Compiler.” Wikipedia, 13 Apr. 2023, en.wikipedia.org/wiki/Compiler. [Accessed 5-7-2023]
