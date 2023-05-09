@@ -10,7 +10,7 @@ Before the advent of the compiler, early software was developed using machine co
 
 ![image](https://user-images.githubusercontent.com/49768882/236733398-8658920d-6c24-447a-a076-dd24adcd3fed.png)
 
-*Image of Grace Hopper*
+*Image of Grace Hopper* [4]
 
 In term of phases and operations, the compilation process can involve many different tasks and iterative procedures. As explained earlier the process may also vary based on operating system and computer architecture. In general though, compiler process is usually organized into lexical analysis, syntax analysis, Semantic Analysis, code optimization, and code generation [6]. The process begins with lexical analaysis, sometimes refered to as "scanning". During lexical analysis the code's text format is broken down into tokens or lexemes. Lexemes are the smallest meaningful units of the language, and it is during this process where keywords, identifiers, operations, and other symbols are collected [6]. These token are then passed down to the next stage, syntax analysis or parser, which checks and ensures that the tokens conform to the grammar of the language. The parser will check for correct syntax and build a syntax tree that is representative of the program written by the programmer [6]. The next stage, Semantic Analysis, checks the actual meaning of the program, including data types, variable declarations, function calls, and ensures that they are all consistent with the rules of the language [6]. 
 
@@ -30,7 +30,8 @@ A two pass compiler is slightly more modular in that the lexical, syntax and int
 To understand the differences between compiled programming languages to interpreted languages, let’s examine some of the use cases, advantages, and disadvantages of each. In general, in a compiled language, the target machine directly translates the program, and in an interpreted language, the source code is not directly translated by the target machine (but by an interpreter) [13]. The decision to use an interpreted language over a compiled language is (usually) based on time restrictions on development or for ease of future changes to the program. A trade-off is made when using an interpreted language over a compiled language, where you trade speed of development for higher execution costs (because each line of an interpreted program must be translated each time it is executed, there is a higher overhead) [14]. “Keeping this in mind, we can see that it would make sense to use a compiled language for the intensive parts of an application (heavy resource usage), whereas interfaces (invoking the application) and less-intensive parts could be written in an interpreted language” [14]. Additionally, compiled languages give developers more control over hardware aspects (like memory management and CPU usage) [14].
 
 ![Pases and Operations](./images/important.svg)
-Preferences:
+
+References:
 
 [1]R. Sheldon, “What is a compiler?,” WhatIs.com, 29-Apr-2022. [Online]. Available: https://www.techtarget.com/whatis/definition/compiler. [Accessed: 28-Apr-2023]. 
 
