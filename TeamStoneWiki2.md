@@ -1,4 +1,4 @@
-<link href="https://raw.githubusercontent.com/Riberiko/CSB310-TeamStone-Wiki2/riko/css/style.css" rel="stylesheet"></link>
+<link href="css/style.css" rel="stylesheet"></link>
 ## Team Stone Wiki 2 - Compilers
 
 ### 1. What is a compiler and what is its purpose? - Yen
@@ -107,41 +107,7 @@ To understand the differences between compiled programming languages to interpre
 
 ### 7. Produce a graphic showing the phases and operations of a compileer - Riko
 
-<div class="green">
-    <ul>
-        <li>High Level language (User Code)</li>
-        <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <li>Lexical Analyzer (Frontend)</li>
-        <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <li>Syntax Analyser (Frontend)</li>
-        <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <li>Intermediate Code Generator (Frontend)</li>
-        <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <li>Code Optimizer (Backend)</li>
-        <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <li>Code Generator (Machine Code)</li>
-    </ul>
-</div>
+![Pases and Operations](./images/important.svg)
 
 
 ### 8. Assemble all the sections so the final wiki is comprehensive - Yen

@@ -1,4 +1,8 @@
-.green
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .green
 {
     color: purple;
     font-weight: 500;
@@ -82,3 +86,43 @@
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+      </style>
+
+      <div class="green">
+    <ul>
+        <li>High Level language (User Code)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Lexical Analyzer (Frontend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Syntax Analyser (Frontend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Intermediate Code Generator (Frontend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Code Optimizer (Backend)</li>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <li>Code Generator (Machine Code)</li>
+    </ul>
+</div>
+    </div>
+  </foreignObject>
+</svg>
