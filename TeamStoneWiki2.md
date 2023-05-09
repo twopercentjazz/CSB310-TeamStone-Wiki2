@@ -73,25 +73,25 @@ A two pass compiler is slightly more modular in that the lexical, syntax and int
 
 sources
 
-[ml1] https://www.guru99.com/compiler-design-phases-of-compiler.html#5
+[ml1] J. Smith, “Phases of compiler with example: Compilation Process &amp; Steps,” Guru99, https://www.guru99.com/compiler-design-phases-of-compiler.html#5 (accessed May 6, 2023). 
 
-[ml2] https://www.geeksforgeeks.org/symbol-table-compiler/
+[ml2] Ankit87 "Symbol Table Compiler" GeeksForGeeks https://www.geeksforgeeks.org/symbol-table-compiler/ (accessed May 6, 2023).
 
-[ml3] https://byjus.com/gate/phases-of-complier-notes/
+[ml3] "Phases of Compiler - GATE CSE Notes" BYJU's EXAM PREP, https://byjus.com/gate/phases-of-complier-notes/ (accessed May 6, 2023).
 
-[ml4] https://pediaa.com/what-is-the-difference-between-parse-tree-and-syntax-tree/
+[ml4] Lithme "What is the Difference Between Parse Tree and Syntax Tree" PEDIAA https://pediaa.com/what-is-the-difference-between-parse-tree-and-syntax-tree/ (accessed May 6, 2023).
 
-[ml5] https://ecomputernotes.com/compiler-design/phases-of-compiler#Code_Generation
+[ml5] D. Thakur, "Phases of Compiler - Compiler Design" Computer Notes. A Complete Guide https://ecomputernotes.com/compiler-design/phases-of-compiler#Code_Generation (accessed May 6, 2023).
 
-[ml6] https://www.javatpoint.com/three-address-code
+[ml6] " Three Address code " java T point https://www.javatpoint.com/three-address-code (accessed May 6, 2023).
 
-[ml7] https://lms.su.edu.pk/download?filename=1606890563-lect-03.ppt&lesson=46630
+[ml7] M. Ali Zaidi "Front End vs Back End of a Compiler" https://lms.su.edu.pk/download?filename=1606890563-lect-03.ppt&lesson=46630 (accessed May 6, 2023).
 
-[ml8] https://www.wikiwand.com/en/One-pass_compiler
+[ml8] "One-Pass Compiler" wikiwand https://www.wikiwand.com/en/One-pass_compiler (accessed May 6, 2023).
 
-[ml9] https://pediaa.com/what-is-the-difference-between-single-pass-and-multipass-compiler/
+[ml9] Lithmee "What is the Difference Between Single Pass and Multipass Compiler" PEDIAA https://pediaa.com/what-is-the-difference-between-single-pass-and-multipass-compiler/ (accessed May 6, 2023).
 
-[ml10] https://www.geeksforgeeks.org/single-pass-two-pass-and-multi-pass-compilers/
+[ml10] Stranger1 "Single Pass, Two Pass, and Multi pass Compilers" GeeksForGeeks https://www.geeksforgeeks.org/single-pass-two-pass-and-multi-pass-compilers/ (accessed May 6, 2023).
 
 
 ### 6. What is the difference between a compiled and intrepretd language? What are the use cases, advantages and disadvantages of each? - Chris
